@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Suite]">
+  <test name="TestCase1(failed)">
+    <classes>
+      <class name="automationScripts.ContactPageTestCase1">
+        <methods>
+          <include name="tearDown"/>
+          <include name="contactFill"/>
+          <include name="setUp"/>
+          <include name="extentFlush"/>
+          <include name="getReports"/>
+          <include name="setReports"/>
+        </methods>
+      </class> <!-- automationScripts.ContactPageTestCase1 -->
+    </classes>
+  </test> <!-- TestCase1(failed) -->
+</suite> <!-- Failed suite [Suite] -->

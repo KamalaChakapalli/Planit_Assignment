@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test name="Test(failed)">
+    <classes>
+      <class name="automationScripts.ContactPageTestCase2">
+        <methods>
+          <include name="contactMandatoryFill"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="objectCreate"/>
+        </methods>
+      </class> <!-- automationScripts.ContactPageTestCase2 -->
+      <class name="automationScripts.CartPageTestCase3">
+        <methods>
+          <include name="shoppingCart"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="objectCreate"/>
+        </methods>
+      </class> <!-- automationScripts.CartPageTestCase3 -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
